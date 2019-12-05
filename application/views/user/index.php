@@ -30,7 +30,7 @@
           <div class="col-6"></div>
           </div> 
           <!--  -->
-          <?php if($_SESSION['user']['role_id']>2): ?>
+         <!--  <?php if($_SESSION['user']['role_id']>2): ?>
             <?php if($_SESSION['user']['role_id'] != 3): ?>
             <div class="row">
               <div class="col">
@@ -133,7 +133,7 @@
               </div>
             </div>
           <?php endif; ?>
-        <?php endif; ?>
+        <?php endif; ?> -->
 
         </div>
         <!-- /.container-fluid -->
